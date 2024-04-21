@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <section>
+        <h1>Jokenpô</h1>
+        <div class="container">
+          <div class="box-hands">
+            <div>
+              <button id="scissors" value="scissors">&#9996;</button>
+            </div>
+            <div>
+              <button id="paper" value="paper">&#128400;</button>
+            </div>
+
+            <div>
+              <button id="rock" value="rock">&#128074;</button>
+            </div>
+          </div>
+          <div class="pontuations">
+            <p class="my-score">Sua pontuação: <span class="human-points">0</span></p>
+            <p class="machine-score">
+              Pontuação do Computador: <span class="computer-points">0</span>
+            </p>
+            <p id="whoWin-sign"></p>
+          </div>
+        </div>
+       
+      </section>
+    </main>
+  </body>
+  <script src="settings.js"></script>
+</html>
